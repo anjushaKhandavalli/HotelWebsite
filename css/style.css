@@ -119,7 +119,8 @@ p {
 }
 
 .btn:hover{
-  color:#f7c08a;
+  color:black;
+  background-color:#f7c08a;
 }
 
 /* Home info */
@@ -141,5 +142,9 @@ p {
   color: white;
   float: right;
   box-sizing: border-box;
+}
+
+#home-info .hotel-history p{
+  padding-bottom: 20px;
 }
 
