@@ -148,3 +148,27 @@ p {
   padding-bottom: 20px;
 }
 
+/* Features section */
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+
+.bg-orange{
+  background-color:#f7c08a;
+  color:#333;
+}
+
+#main-footer{
+  clear: both;
+  padding: 20px;
+  text-align: center;
+}
+
