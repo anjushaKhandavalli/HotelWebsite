@@ -6,6 +6,18 @@
 }
 /* Utility classes */
 
+.py-1{
+  padding: 10px 0;
+}
+
+.py-2{
+  padding: 20px 0;
+}
+
+.py-3{
+  padding: 30px 0;
+}
+
 .lead{
   font-size: 20px;
 }
@@ -166,9 +178,35 @@ p {
   color:#333;
 }
 
+/* Footer */
+
 #main-footer{
   clear: both;
   padding: 20px;
   text-align: center;
+}
+
+/* About */
+
+#about-info .info-left{
+  float: left;
+  width: 50%;
+}
+
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+.info-right img{
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.info-left h1{
+  font-size: 40px;
 }
 
