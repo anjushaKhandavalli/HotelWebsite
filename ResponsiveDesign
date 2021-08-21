@@ -1,0 +1,7 @@
+To achieve responsive design
+
+1.  Set viewport tag: It tells the browser how to handle the pages, dimensions and scalling.
+2.  Using fluid widths (max-width)
+3.  Media queries - Specify different set of CSS based on different screen sizes
+4.  rem units -- It is multiplier of root elements font sizes
+5.  Mobile first method
