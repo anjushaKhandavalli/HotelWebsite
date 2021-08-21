@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  box-sizing: border-box;
 }
 /* Utility classes */
 
@@ -208,5 +209,42 @@ p {
 
 .info-left h1{
   font-size: 40px;
+}
+
+#testimonals{
+  background: url('/img/test-bg.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.clr{
+  clear: both;
+}
+#testimonals .testimonal{
+  background-color: #f7c08a;
+  overflow: auto;
+  margin: 40px;
+  border-radius: 8px;
+  /* Opacity makes the element transparent Default value is 1 where we cant see the background*/
+  opacity: 0.8;
+}
+
+#testimonals h2{
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+#testimonals .testimonal img{
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin: 20px;
+}
+
+.testimonal p{
+  padding: 25px;
+  margin: 0px;
 }
 
