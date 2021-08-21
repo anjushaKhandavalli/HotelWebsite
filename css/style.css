@@ -44,7 +44,7 @@
 }
 
 .bg-dark{
-  background-color: #333;
+  background-color:#444;
   color: white;
 }
 
@@ -246,5 +246,41 @@ p {
 .testimonal p{
   padding: 25px;
   margin: 0px;
+}
+/* Contact form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form h2{
+  font-size: 40px;
+}
+
+#contact-form p{
+  margin-bottom: 10px;
+}
+
+#contact-form .form-group label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus{
+  outline: none;
+  border-color:#f7c08a;
+}
+
+#contact-form textarea {
+  height: 200px;
+  margin-bottom: 20px;;
 }
 
